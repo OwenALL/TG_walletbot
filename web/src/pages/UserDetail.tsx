@@ -274,7 +274,7 @@ const UserDetailDrawer: FC<UserDetailDrawerProps> = ({
 
           {/* 管理操作区域 */}
           <div>
-            <Divider orientation="left" orientationMargin={0}>
+            <Divider titlePlacement="left">
               管理操作
             </Divider>
             <Space wrap>
