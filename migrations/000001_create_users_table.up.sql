@@ -1,0 +1,20 @@
+CREATE TABLE users (
+    id              BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    telegram_id     BIGINT NOT NULL UNIQUE,
+    username        VARCHAR(64) DEFAULT '',
+    first_name      VARCHAR(128) DEFAULT '',
+    last_name       VARCHAR(128) DEFAULT '',
+    language_code   VARCHAR(10) DEFAULT 'zh-CN',
+    is_premium      TINYINT(1) DEFAULT 0,
+    pin_hash        VARCHAR(255) DEFAULT '',
+    totp_secret     VARCHAR(64) DEFAULT '',
+    totp_enabled    TINYINT(1) DEFAULT 0,
+    status          TINYINT DEFAULT 1,
+    pin_fail_count  INT DEFAULT 0,
+    pin_locked_until DATETIME DEFAULT NULL,
+    referrer_id     BIGINT UNSIGNED DEFAULT NULL,
+    created_at      DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at      DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_telegram_id (telegram_id),
+    INDEX idx_username (username)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

@@ -1,0 +1,39 @@
+# 自动规范化行尾
+* text=auto
+
+# Shell 脚本强制 LF (防止 Windows CRLF 导致执行失败)
+*.sh text eol=lf
+
+# Windows 批处理强制 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Go 源码强制 LF
+*.go text eol=lf
+
+# 前端代码强制 LF
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+
+# 配置文件强制 LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+Makefile text eol=lf
+Dockerfile* text eol=lf
+
+# 二进制文件
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary

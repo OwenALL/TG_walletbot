@@ -1,0 +1,67 @@
+# WalletBot 配置文件
+# 复制此文件为 config.yaml 并填入实际值
+
+# 应用配置
+app:
+  name: "walletbot"
+  env: "development"       # development / production
+  debug: true
+
+# Admin API 服务配置
+server:
+  host: "0.0.0.0"
+  port: 8080
+  read_timeout: 10         # 秒
+  write_timeout: 10        # 秒
+
+# Telegram Bot 配置
+bot:
+  token: "your_bot_token_here"           # 从 @BotFather 获取
+  webhook_url: ""                        # 留空使用长轮询模式
+  mode: "polling"                        # polling / webhook
+
+# MySQL 数据库配置
+database:
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: "your_password_here"
+  name: "walletbot"
+  charset: "utf8mb4"
+  max_idle_conns: 10
+  max_open_conns: 100
+  max_lifetime: 3600       # 秒
+
+# Redis 配置
+redis:
+  addr: "localhost:6379"   # 地址:端口
+  password: ""
+  db: 0
+
+# JWT 认证配置 (Admin API 使用)
+jwt:
+  secret: "your_jwt_secret_here_change_in_production"
+  expire_hours: 24         # Token 过期时间 (小时)
+
+# TRON 区块链配置
+# 注意: 以下运营参数已迁移至 system_configs 数据库表，通过管理后台动态调整:
+#   - tron_fee_limit (TRC20 手续费上限)
+#   - tron_usdt_contract (USDT 合约地址)
+#   - tron_grpc_timeout (gRPC 单次超时)
+#   - tron_grpc_batch_timeout (gRPC 批量超时)
+#   - withdraw_usdt_auto_threshold (自动发送阈值)
+tron:
+  api_url: "https://api.trongrid.io"       # TronGrid HTTP API 地址 (提币发送使用)
+  grpc_endpoint: "grpc.trongrid.io:50051"  # gRPC 端点 (充值监控区块扫描使用)
+  api_key: "your_trongrid_api_key"         # TronGrid API Key
+  encryption_key: ""                       # AES-256 加密密钥，用于加密私钥，建议通过环境变量 TRON_ENCRYPTION_KEY 注入
+  hot_wallet_address: ""                   # 热钱包地址 (自动提币使用)
+  hot_wallet_encrypted_key: ""             # 热钱包私钥 (AES-256-GCM 加密后的值)
+  enabled: false                           # 是否启用 TRON 链上集成
+
+# 日志配置
+log:
+  level: "info"            # debug / info / warn / error
+  format: "json"           # json / console
+  output: "stdout"         # stdout / file
+  file_path: "logs/app.log"

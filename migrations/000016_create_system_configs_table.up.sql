@@ -1,0 +1,7 @@
+CREATE TABLE system_configs (
+    id              BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    config_key      VARCHAR(64) NOT NULL UNIQUE,
+    config_value    TEXT NOT NULL,
+    description     VARCHAR(255) DEFAULT '',
+    updated_at      DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
