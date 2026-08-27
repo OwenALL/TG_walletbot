@@ -9,10 +9,10 @@ import (
 	"github.com/go-telegram/bot/models"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/adapter/telegram"
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	tgpkg "github.com/TGlimmer/TG_walletbot/pkg/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/adapter/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	tgpkg "github.com/OwenALL/TG_walletbot/pkg/telegram"
 )
 
 // MerchantHandler 商户模块 Bot Handler
