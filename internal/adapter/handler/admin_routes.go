@@ -5,10 +5,10 @@ import (
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 
-	"github.com/TGlimmer/TG_walletbot/internal/adapter/middleware"
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service"
-	"github.com/TGlimmer/TG_walletbot/internal/infrastructure/config"
+	"github.com/OwenALL/TG_walletbot/internal/adapter/middleware"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service"
+	"github.com/OwenALL/TG_walletbot/internal/infrastructure/config"
 )
 
 // RegisterAdminRoutes 注册管理后台全部路由
