@@ -6,8 +6,8 @@ import (
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service"
 )
 
 // FinanceDashboard 余额宝面板展示数据
