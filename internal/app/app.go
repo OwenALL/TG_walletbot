@@ -4,7 +4,7 @@ package app
 
 import (
 	"github.com/redis/go-redis/v9"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/port"
+	"github.com/OwenALL/TG_walletbot/internal/domain/port"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 )
