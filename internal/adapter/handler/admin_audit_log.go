@@ -6,9 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/port"
-	"github.com/TGlimmer/TG_walletbot/pkg/response"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	"github.com/OwenALL/TG_walletbot/internal/domain/port"
+	"github.com/OwenALL/TG_walletbot/pkg/response"
 )
 
 // AdminAuditLogHandler 审计日志处理器
