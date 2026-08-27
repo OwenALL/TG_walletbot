@@ -6,9 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
-	"github.com/TGlimmer/TG_walletbot/pkg/response"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
+	"github.com/OwenALL/TG_walletbot/pkg/response"
 )
 
 // AdminWithdrawalHandler 提币审核处理器
