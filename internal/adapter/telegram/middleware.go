@@ -11,9 +11,9 @@ import (
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/port"
-	tgpkg "github.com/TGlimmer/TG_walletbot/pkg/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/port"
+	tgpkg "github.com/OwenALL/TG_walletbot/pkg/telegram"
 )
 
 // Middleware Bot 中间件类型
