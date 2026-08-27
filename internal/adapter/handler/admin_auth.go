@@ -4,10 +4,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/adapter/middleware"
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
-	"github.com/TGlimmer/TG_walletbot/pkg/response"
+	"github.com/OwenALL/TG_walletbot/internal/adapter/middleware"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
+	"github.com/OwenALL/TG_walletbot/pkg/response"
 )
 
 // AuthHandler 管理员认证处理器
