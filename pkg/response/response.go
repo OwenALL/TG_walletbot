@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
 )
 
 // Response API 统一响应结构
