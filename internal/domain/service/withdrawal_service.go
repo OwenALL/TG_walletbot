@@ -6,9 +6,9 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/port"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/port"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
 )
 
 // WithdrawalService 提币领域服务
