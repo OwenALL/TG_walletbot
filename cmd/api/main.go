@@ -9,15 +9,15 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/adapter/handler"
-	"github.com/TGlimmer/TG_walletbot/internal/adapter/middleware"
-	"github.com/TGlimmer/TG_walletbot/internal/adapter/repository"
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	"github.com/TGlimmer/TG_walletbot/internal/infrastructure/config"
-	"github.com/TGlimmer/TG_walletbot/internal/infrastructure/database"
-	infralogger "github.com/TGlimmer/TG_walletbot/internal/infrastructure/logger"
-	"github.com/TGlimmer/TG_walletbot/internal/infrastructure/server"
-	pkglogger "github.com/TGlimmer/TG_walletbot/pkg/logger"
+	"github.com/OwenALL/TG_walletbot/internal/adapter/handler"
+	"github.com/OwenALL/TG_walletbot/internal/adapter/middleware"
+	"github.com/OwenALL/TG_walletbot/internal/adapter/repository"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	"github.com/OwenALL/TG_walletbot/internal/infrastructure/config"
+	"github.com/OwenALL/TG_walletbot/internal/infrastructure/database"
+	infralogger "github.com/OwenALL/TG_walletbot/internal/infrastructure/logger"
+	"github.com/OwenALL/TG_walletbot/internal/infrastructure/server"
+	pkglogger "github.com/OwenALL/TG_walletbot/pkg/logger"
 )
 
 func main() {
