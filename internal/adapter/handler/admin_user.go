@@ -8,10 +8,10 @@ import (
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/port"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
-	"github.com/TGlimmer/TG_walletbot/pkg/response"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	"github.com/OwenALL/TG_walletbot/internal/domain/port"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
+	"github.com/OwenALL/TG_walletbot/pkg/response"
 )
 
 // AdminUserHandler 用户管理处理器
