@@ -10,9 +10,9 @@ import (
 	"github.com/go-telegram/bot/models"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/adapter/telegram"
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	tgpkg "github.com/TGlimmer/TG_walletbot/pkg/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/adapter/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	tgpkg "github.com/OwenALL/TG_walletbot/pkg/telegram"
 )
 
 // PIN 长度: 4 位数字
