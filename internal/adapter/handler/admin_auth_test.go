@@ -15,8 +15,8 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
 )
 
 // --- 测试辅助 ---
