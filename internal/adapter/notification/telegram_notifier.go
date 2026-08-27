@@ -10,7 +10,7 @@ import (
 	"github.com/go-telegram/bot/models"
 	"go.uber.org/zap"
 
-	tgpkg "github.com/TGlimmer/TG_walletbot/pkg/telegram"
+	tgpkg "github.com/OwenALL/TG_walletbot/pkg/telegram"
 )
 
 // TelegramNotifier 通过 Telegram Bot 发送通知
