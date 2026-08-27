@@ -6,8 +6,8 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	tgpkg "github.com/TGlimmer/TG_walletbot/pkg/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	tgpkg "github.com/OwenALL/TG_walletbot/pkg/telegram"
 )
 
 // --- 钱包主页消息构建 ---
