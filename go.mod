@@ -1,4 +1,4 @@
-module github.com/TGlimmer/TG_walletbot
+module github.com/OwenALL/TG_walletbot
 
 go 1.25.2
 
