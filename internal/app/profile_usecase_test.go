@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service/mocks"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service/mocks"
 )
 
 // newTestProfileUseCase 创建测试用的 ProfileUseCase 及其 mock 依赖
