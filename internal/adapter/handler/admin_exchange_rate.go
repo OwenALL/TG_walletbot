@@ -5,9 +5,9 @@ import (
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/pkg/response"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/pkg/response"
 )
 
 // AdminExchangeRateHandler 汇率管理处理器
