@@ -13,8 +13,8 @@ import (
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
 )
 
 // --- AdminUserHandler 测试 ---
