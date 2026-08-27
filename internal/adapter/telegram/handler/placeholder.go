@@ -8,7 +8,7 @@ import (
 	"github.com/go-telegram/bot/models"
 	"go.uber.org/zap"
 
-	tgpkg "github.com/TGlimmer/TG_walletbot/pkg/telegram"
+	tgpkg "github.com/OwenALL/TG_walletbot/pkg/telegram"
 )
 
 // PlaceholderHandler 占位处理器
