@@ -3,7 +3,7 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/TGlimmer/TG_walletbot/pkg/response"
+	"github.com/OwenALL/TG_walletbot/pkg/response"
 )
 
 // HealthHandler 健康检查处理器
