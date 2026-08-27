@@ -2,7 +2,7 @@
 package logger
 
 import (
-	"github.com/TGlimmer/TG_walletbot/internal/infrastructure/config"
+	"github.com/OwenALL/TG_walletbot/internal/infrastructure/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

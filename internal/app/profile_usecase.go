@@ -6,7 +6,7 @@ import (
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service"
 )
 
 // ProfileUseCase 个人中心用例层

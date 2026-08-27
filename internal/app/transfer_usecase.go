@@ -7,9 +7,9 @@ import (
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
 )
 
 // TransferUseCase 转账用例层

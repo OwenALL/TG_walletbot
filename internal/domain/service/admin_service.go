@@ -7,9 +7,9 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/port"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/port"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
 )
 
 // AdminService 管理员领域服务

@@ -9,7 +9,7 @@ import (
 	"github.com/go-telegram/bot/models"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/pkg/logger"
+	"github.com/OwenALL/TG_walletbot/pkg/logger"
 )
 
 // SendMessage 发送纯文本消息 (HTML 格式)

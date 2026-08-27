@@ -11,9 +11,9 @@ import (
 	"github.com/shopspring/decimal"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/port"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/port"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
 )
 
 // UserService 用户领域服务

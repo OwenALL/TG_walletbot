@@ -9,7 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
 )
 
 func init() {

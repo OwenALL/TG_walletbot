@@ -7,11 +7,11 @@ import (
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/port"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service"
-	apperrors "github.com/TGlimmer/TG_walletbot/pkg/errors"
-	pkgtron "github.com/TGlimmer/TG_walletbot/pkg/tron"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/port"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service"
+	apperrors "github.com/OwenALL/TG_walletbot/pkg/errors"
+	pkgtron "github.com/OwenALL/TG_walletbot/pkg/tron"
 )
 
 // WithdrawalUseCase 提币用例层

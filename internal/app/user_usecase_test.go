@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service/mocks"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service/mocks"
 )
 
 // newTestUserUseCase 创建测试用的 UserUseCase 及其依赖的 mock

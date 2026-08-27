@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service/mocks"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service/mocks"
 )
 
 // 注意: TransferService.ExecuteTransfer 使用了 gorm.DB 事务和内部 txWalletRepo/txTransferRepo/txTransactionRepo，
