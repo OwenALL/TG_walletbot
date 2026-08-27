@@ -8,9 +8,9 @@ import (
 	"github.com/go-telegram/bot/models"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/adapter/telegram"
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	tgpkg "github.com/TGlimmer/TG_walletbot/pkg/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/adapter/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	tgpkg "github.com/OwenALL/TG_walletbot/pkg/telegram"
 )
 
 // WalletCallbackHandler 钱包模块回调路由器
