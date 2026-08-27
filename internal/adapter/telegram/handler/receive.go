@@ -11,10 +11,10 @@ import (
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/adapter/telegram"
-	"github.com/TGlimmer/TG_walletbot/internal/app"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	tgpkg "github.com/TGlimmer/TG_walletbot/pkg/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/adapter/telegram"
+	"github.com/OwenALL/TG_walletbot/internal/app"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	tgpkg "github.com/OwenALL/TG_walletbot/pkg/telegram"
 )
 
 // ReceiveHandler 收钱模块 Bot Handler
