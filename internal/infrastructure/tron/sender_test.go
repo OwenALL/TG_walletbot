@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
 )
 
 // mockConfigRepo 测试用的 SystemConfigRepository mock
