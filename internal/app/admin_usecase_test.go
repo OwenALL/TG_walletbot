@@ -12,10 +12,10 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/TGlimmer/TG_walletbot/internal/domain/entity"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/port"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service"
-	"github.com/TGlimmer/TG_walletbot/internal/domain/service/mocks"
+	"github.com/OwenALL/TG_walletbot/internal/domain/entity"
+	"github.com/OwenALL/TG_walletbot/internal/domain/port"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service"
+	"github.com/OwenALL/TG_walletbot/internal/domain/service/mocks"
 )
 
 // newTestAdminUseCase 创建测试用的 AdminUseCase (仅测试非 gorm.DB 直接操作的方法)
